@@ -1,0 +1,61 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:url("https://wallpapercave.com/wp/PiDsb62.jpg") ;
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    font-family:'Roboto',sans-serif;
+}
+h2{
+    border-bottom:1px dotted rgb(5, 57, 58);
+}
+.container{
+    color: rgb(5, 57, 58);
+    width: 400px;
+    height: 300px;
+    background-color:transparent;
+    border: 1px solid rgb(247, 247, 250);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 12px 16px 15px 3px rgba(71, 70, 64, 0.808);
+}
+textarea{
+    /* font-weight: bold; */
+    padding: 10px;
+    font-size: 1.4rem;
+    resize: none;
+    width: 90%;
+    height: 80px;
+    margin-bottom: 0.8rem;
+    border-radius: 8px;
+    background-color: #0e243f;
+    color: rgb(246, 243, 248);
+    box-shadow: 3px 4px 2px 1px rgba(192, 191, 191, 0.808);
+   
+}
+#Total{
+    color: rgb(17, 105, 51);
+    border-bottom: 1px solid rgb(17, 105, 51);
+}
+#Remaining{
+    color: rgb(107, 10, 10);
+    border-bottom: 1px solid rgb(107, 10, 10);
+}
+textarea::placeholder{
+    color: #aca8a8d3;
+    font-size: 1.2rem;
+}
+.count{
+    display: flex;
+    gap: 3.5rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
